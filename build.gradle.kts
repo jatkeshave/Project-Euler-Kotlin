@@ -48,5 +48,5 @@ dependencies {
 
 application {
   // Define the main class for the application
-  mainClassName = "project_euler.AppKt"
+  mainClassName = "project_euler.MainKt"
 }
