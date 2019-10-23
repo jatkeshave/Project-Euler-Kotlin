@@ -44,6 +44,21 @@ dependencies {
 
   // KotlinTest                   : https://github.com/kotlintest/kotlintest
   testImplementation("io.kotlintest:kotlintest-runner-junit5:3.3.2")
+
+  // Kotlin-Logging               : https://github.com/MicroUtils/kotlin-logging
+  implementation("io.github.microutils:kotlin-logging:1.7.6")
+
+  // Logback Classic              : http://logback.qos.ch/
+  implementation("ch.qos.logback:logback-classic:1.2.3")
+
+  // Logback Classic              : http://logback.qos.ch/
+  implementation("org.reflections:reflections:0.9.11")
+
+  // controlsfx                   : https://github.com/controlsfx/controlsfx
+  implementation("org.controlsfx:controlsfx:11.0.0")
+
+  // Reflections                  : https://github.com/ronmamo/reflections
+  implementation("org.reflections:reflections:0.9.11")
 }
 
 application {
