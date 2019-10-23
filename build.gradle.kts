@@ -21,7 +21,7 @@ tasks.named("test", Test::class) {
 //}
 
 extensions.getByType(JavaFXOptions::class).apply {
-  this.version = "11"
+  this.version = "11.0.1"
   this.modules = listOf(
     "javafx.controls",
     "javafx.fxml",
